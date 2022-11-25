@@ -14,8 +14,7 @@ namespace AddressBook
 
             Address address = new Address();
             address.Entry();
-
-
+            address.DeleteContact();
 
         }
 
