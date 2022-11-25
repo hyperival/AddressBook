@@ -13,9 +13,7 @@ namespace AddressBook
             Console.WriteLine("Welcome to Address Book Program");
 
             Address address = new Address();
-            address.Entry();
-            address.DeleteContact();
-
+            address.AddMultipleContact();
         }
 
     }
