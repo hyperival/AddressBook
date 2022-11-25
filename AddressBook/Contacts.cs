@@ -14,11 +14,7 @@ namespace AddressBook
         public string city { get; set; }
         public string state { get; set; }
         public string email_Id { get; set; }
-        public string phone_Number { get; set; }
-        public string zip { get; set; }
-        public override string ToString()
-        {
-            return "FirstName: " + this.first_Name + " \nLastName: " + this.last_Name + " \nPresent Address: " + this.present_Address + " \nCity: " + this.city + " \nState: " + this.state + " \nZipcode: " + this.zip + " \nPhoneNumber: " + this.phone_Number + " \nEmail: " + this.email_Id;
-        }
+        public int phone_Number { get; set; }
+        public int zip { get; set; }
     }
 }

@@ -14,8 +14,8 @@ namespace AddressBook
 
             Address address = new Address();
             address.AddMultipleContact();
+            address.Display();
         }
-
-    }
+    }    
 }
 
